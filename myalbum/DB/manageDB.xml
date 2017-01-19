@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<project name="hsqldb" default="hsql-server">
+	
+	<property name="path.to.hsqldb.jar" value="../lib"/>
+	<property name="path.to.db" value="."/>
+	<property name="db.name" value="myalbumDB"/>
+	<property name="user.id" value="sa"/>
+	<property name="user.pwd" value=""/>
+	
+	<target name="hsql-server">
+		<echo message="Starting HSQLDB"/>
+		<java fork="true" dir="." classname="org.hsqldb.Server">
+			<classpath>
+				<pathelement path="${path.to.hsqldb.jar}/hsqldb.jar"/>
+			</classpath>
+			<arg value="-database.0"/>
+			<arg value="${path.to.db}/${db.name}"/>
+			<arg value="-dbname.0"/>
+			<arg value="${db.name}"/>
+		</java>
+	</target>
+	
+	
+	<target name="hsql-client">
+		<echo message="Starting HSQLDB swing client"/>
+		<java fork="true" dir="." classname="org.hsqldb.util.DatabaseManagerSwing">
+			<classpath>
+				<pathelement path="${path.to.hsqldb.jar}/hsqldb.jar"/>
+			</classpath>
+		</java>
+	</target>
+	
+</project>
