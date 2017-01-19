@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Master Page Example</title>
+    <style type="text/css">
+        .Row1Column1
+        {
+            width: 160px;
+            height: 400px;
+            border-color: Red;
+            background-color: Red;
+        }
+        .Row1Column2
+        {
+            width: 10px;
+            height: 400px;
+        }
+        .Row1Column3
+        {
+            width: 520px;
+            height: 400px;
+        }
+        .Row2Column1
+        {
+            width: 160px;
+            height: 25px;
+            border-color: Red;
+            background-color: Red;
+        }
+        .Row2Column2
+        {
+            width: 10;
+            height: 25;
+        }
+        .Row2Column3
+        {
+            width: 520px;
+            height: 25;
+        }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/banner.jpg" />
+        <br />
+        <table cellpadding="2" cellspacing="0">
+            <tr>
+                <td class="Row1Column1" valign="top">
+                    <br />
+                    <asp:HyperLink ID="HyperLink1" runat="server"
+                        ForeColor="White" 
+                        NavigateUrl="~/Order.aspx">Home</asp:HyperLink>
+                    <br />
+                    <br />
+                    <asp:HyperLink ID="HyperLink2" runat="server"
+                        ForeColor="White" NavigateUrl="~/Cart.aspx">
+                        Your Shopping Cart</asp:HyperLink>
+                    <br />
+                    <br />
+                    <asp:HyperLink ID="HyperLink3" runat="server"
+                        ForeColor="White" NavigateUrl="~/Service.aspx">
+                        Customer Service</asp:HyperLink>
+                    <br />
+                    <br />
+                    <asp:HyperLink ID="HyperLink4" runat="server"
+                        ForeColor="White"
+                        NavigateUrl="~/About.aspx">About Us</asp:HyperLink>
+                </td>
+                <td class="Row1Column2"></td>
+                <td class="Row1Column3" valign="top">
+                    <asp:ContentPlaceHolder id="Main" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="Row2Column1"></td>
+                <td class="Row2Column2"></td>
+                <td class="Row2Column3">
+                    <asp:Label ID="lblMessage" runat="server"></asp:Label>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
