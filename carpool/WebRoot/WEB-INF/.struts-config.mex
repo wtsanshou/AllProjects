@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/form/login.do" location="50,450" dimension="262,84" />
+  <StrutsActivity path="/form/regist.do" location="950,350" dimension="240,88" />
+  <StrutsActivity path="/form/postInfo.do" location="650,250" dimension="240,88" />
+  <StrutsActivity path="/form/search.do" location="650,550" dimension="280,84" />
+  <StrutsActivity path="/form/unLoginSearch.do" location="50,950" dimension="280,84" />
+  <StrutsActivity path="/form/route.do" location="50,750" dimension="262,84" />
+  <StrutsActivity path="/form/apply.do" location="950,750" dimension="316,84" />
+  <StrutsActivity path="/form/change.do" location="650,950" dimension="292,84" />
+  <StrutsActivity path="/form/exit.do" location="350,1150" dimension="268,84" />
+  <StrutsActivity path="/form/delete.do" location="1250,150" dimension="298,84" />
+  <StrutsActivity path="/form/success.jsp" location="615,30" dimension="114,49" />
+  <StrutsActivity path="/form/fail.jsp" location="375,165" dimension="91,49" />
+  <StrutsActivity path="login.jsp" location="650,150" dimension="69,49" />
+  <StrutsActivity path="regist.jsp" location="75,285" dimension="74,49" />
+  <StrutsActivity path="/form/postInfo.jsp" location="1250,650" dimension="148,48" />
+  <StrutsActivity path="postInfo.jsp" location="950,250" dimension="88,49" />
+  <StrutsActivity path="/form/result.jsp" location="50,650" dimension="136,48" />
+  <StrutsActivity path="/form/unLogin.jsp" location="650,850" dimension="142,48" />
+  <StrutsActivity path="/form/apply.jsp" location="350,650" dimension="130,48" />
+  <StrutsActivity path="/form/personal.jsp" location="350,350" dimension="148,48" />
+  <StrutsActivity path="/form/index.jsp" location="1250,350" dimension="130,48" />
+  <StrutsActivity path="/index.jsp" location="650,450" dimension="77,49" />
+  <StrutsActivity path="/form/login.jsp" location="390,75" dimension="99,49" />
+  <StrutsActivity path="/success.jsp" location="950,50" dimension="88,49" />
+  <StrutsActivity path="./form/success.jsp" location="950,150" dimension="118,49" />
+  <StrutsActivity path="/form/ok.jsp" location="650,750" dimension="112,48" />
+  <StrutsActivity path=".jsp" location="50,1150" dimension="64,48" />
+  <StrutsActivity path="../index.jsp" location="1250,450" dimension="112,48" />
+  <StrutsActivity path="/../index.jsp" location="1250,550" dimension="118,48" />
+  <StrutsTransition id="/form/unLoginSearch.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,992" />
+      <AbsolutePoint location="-45,992" />
+      <AbsolutePoint location="-45,139" />
+      <AbsolutePoint location="420,139" />
+      <AbsolutePoint location="420,165" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/regist.do,success,/form/success.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1083,350" />
+      <AbsolutePoint location="1083,35" />
+      <AbsolutePoint location="729,35" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/postInfo.do,success,/form/postInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="890,314" />
+      <AbsolutePoint location="1395,314" />
+      <AbsolutePoint location="1395,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/delete.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="420,189" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/postInfo.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,264" />
+      <AbsolutePoint location="605,264" />
+      <AbsolutePoint location="605,184" />
+      <AbsolutePoint location="466,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/postInfo.do,success,/form/personal.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="770,294" />
+      <AbsolutePoint location="424,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/route.do,success,/form/apply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="312,783" />
+      <AbsolutePoint location="415,783" />
+      <AbsolutePoint location="415,698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/unLoginSearch.do,success,/form/unLogin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="190,992" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/apply.do,applied,/form/personal.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1108,792" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/route.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="211,750" />
+      <AbsolutePoint location="211,592" />
+      <AbsolutePoint location="390,592" />
+      <AbsolutePoint location="390,214" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/login.do,success,/form/success.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="181,450" />
+      <AbsolutePoint location="181,54" />
+      <AbsolutePoint location="615,54" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/regist.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,360" />
+      <AbsolutePoint location="450,360" />
+      <AbsolutePoint location="450,214" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/exit.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,1213" />
+      <AbsolutePoint location="-120,1213" />
+      <AbsolutePoint location="-120,197" />
+      <AbsolutePoint location="375,197" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/apply.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1197,750" />
+      <AbsolutePoint location="1197,-57" />
+      <AbsolutePoint location="383,-57" />
+      <AbsolutePoint location="383,165" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="postInfo.jsp,null,/form/postInfo.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,274" />
+      <AbsolutePoint location="890,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/change.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,962" />
+      <AbsolutePoint location="555,962" />
+      <AbsolutePoint location="555,139" />
+      <AbsolutePoint location="450,139" />
+      <AbsolutePoint location="450,165" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/search.do,success,/form/result.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,622" />
+      <AbsolutePoint location="118,622" />
+      <AbsolutePoint location="118,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/search.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,592" />
+      <AbsolutePoint location="420,592" />
+      <AbsolutePoint location="420,214" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="login.jsp,null,/form/login.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="684,199" />
+      <AbsolutePoint location="684,229" />
+      <AbsolutePoint location="241,229" />
+      <AbsolutePoint location="241,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/change.do,success,/form/personal.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,992" />
+      <AbsolutePoint location="495,992" />
+      <AbsolutePoint location="495,398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="regist.jsp,null,/form/regist.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="112,334" />
+      <AbsolutePoint location="112,390" />
+      <AbsolutePoint location="950,390" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/login.do,fail,/form/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="211,450" />
+      <AbsolutePoint location="211,167" />
+      <AbsolutePoint location="375,167" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/delete.do,success,/form/personal.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="424,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/exit.do,success,/form/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="484,1192" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

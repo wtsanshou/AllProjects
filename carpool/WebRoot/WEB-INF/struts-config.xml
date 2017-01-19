@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="loginForm" type="com.carpool2.web.forms.LoginActionForm" />
+	<form-bean name="addUserForm" type="com.carpool2.web.forms.AddUserActionForm" />
+	<form-bean name="postInfoForm" type="com.carpool2.web.forms.PublicActionForm" />
+	<form-bean name="GetRouteDetailActionForm" type="com.carpool2.web.forms.GetRouteDetailActionForm" />
+	<form-bean name="UpdateUserActionForm" type="com.carpool2.web.forms.UpdateUserActionForm"></form-bean>
+  	<form-bean name="DeleteRouteActionForm" type="com.carpool2.web.forms.DeleteRouteActionForm"></form-bean>
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      name="loginForm"
+      input="login.jsp"
+      path="/form/login"
+      scope="request"
+      type="com.carpool2.web.actions.LoginAction">
+      <forward name="success" path="/form/success.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    
+    <action
+      name="addUserForm"
+      input="regist.jsp"
+      path="/form/regist"
+      scope="request"
+      type="com.carpool2.web.actions.AddUserAciton">
+      <forward name="success" path="/form/success.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    
+    <action
+      name="postInfoForm"
+      input="postInfo.jsp"
+      path="/form/postInfo"
+      scope="request"
+      type="com.carpool2.web.actions.PublicAction">
+      <forward name="success" path="/form/personal.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    
+     <action
+      
+      name="searchInfoForm"
+      path="/form/search"
+      scope="request"
+      type="com.carpool2.web.actions.GetRouteAction">
+      <forward name="success" path="/form/result.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    
+     <action
+      
+      name="searchInfoForm"
+      path="/form/unLoginSearch"
+      scope="request"
+      type="com.carpool2.web.actions.GetRouteAction">
+      <forward name="success" path="/form/unLogin.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    
+    <action
+      
+      name="GetRouteDetailActionForm"
+      path="/form/route"
+      scope="request"
+      type="com.carpool2.web.actions.GetRouteDetailAction">
+      <forward name="success" path="/form/apply.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    <action
+      
+      
+      path="/form/apply"
+      scope="request"
+      type="com.carpool2.web.actions.ApplyAction">
+      <forward name="applied" path="/form/personal.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    <action
+    	name="UpdateUserActionForm"
+      path="/form/change"
+      scope="request"
+      type="com.carpool2.web.actions.UpdateUserAction">
+      <forward name="success" path="/form/personal.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    
+    <action
+    	
+      path="/form/exit"
+      scope="request"
+      type="com.carpool2.web.actions.LogoutAction">
+      <forward name="success" path="/form/index.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+    
+    <action
+    name="DeleteRouteActionForm"
+      path="/form/delete"
+      scope="request"
+      type="com.carpool2.web.actions.DeleteRouteAction">
+      <forward name="success" path="/form/personal.jsp" />
+      <forward name="fail" path="/form/fail.jsp"/>
+    </action>
+  </action-mappings>
+
+  <message-resources parameter="com.carpool2.struts.ApplicationResources" />
+</struts-config>
+

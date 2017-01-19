@@ -1,0 +1,27 @@
+
+#head a:link {
+	color:white;	
+	text-decoration:none;
+}
+#head a:visited {
+	color:white;
+	text-decoration:none;	
+}         
+       
+
+#test {
+	font-family: Arial;
+	font-size: .8em;
+	text-align:center;
+	margin:3px;
+	cursor:hand;
+	color: #FFFFFF;
+	padding:4px 10px 4px 10px;
+	background-color: #0A5CA7;
+	text-decoration: none;
+	border-top: 1px solid #EEEEEE;		
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+} 
+
