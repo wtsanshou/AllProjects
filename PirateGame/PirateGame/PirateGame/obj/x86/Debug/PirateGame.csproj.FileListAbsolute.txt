@@ -1,0 +1,11 @@
+E:\C#_project\PirateGame\PirateGame\bin\Debug\PirateGame.exe
+E:\C#_project\PirateGame\PirateGame\bin\Debug\PirateGame.pdb
+E:\C#_project\PirateGame\PirateGame\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#_project\PirateGame\PirateGame\obj\x86\Debug\PirateGame.Form1.resources
+E:\C#_project\PirateGame\PirateGame\obj\x86\Debug\PirateGame.Properties.Resources.resources
+E:\C#_project\PirateGame\PirateGame\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\C#_project\PirateGame\PirateGame\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\C#_project\PirateGame\PirateGame\obj\x86\Debug\PirateGame.exe
+E:\C#_project\PirateGame\PirateGame\obj\x86\Debug\PirateGame.pdb
+E:\PirateGame\PirateGame\obj\x86\Debug\PirateGame.exe
+E:\PirateGame\PirateGame\obj\x86\Debug\PirateGame.pdb

@@ -1,0 +1,9 @@
+E:\PirateGame\PirateGame\bin\Release\PirateGame.exe
+E:\PirateGame\PirateGame\bin\Release\PirateGame.pdb
+E:\PirateGame\PirateGame\obj\x86\Release\ResolveAssemblyReference.cache
+E:\PirateGame\PirateGame\obj\x86\Release\PirateGame.Form1.resources
+E:\PirateGame\PirateGame\obj\x86\Release\PirateGame.Properties.Resources.resources
+E:\PirateGame\PirateGame\obj\x86\Release\GenerateResource.read.1.tlog
+E:\PirateGame\PirateGame\obj\x86\Release\GenerateResource.write.1.tlog
+E:\PirateGame\PirateGame\obj\x86\Release\PirateGame.exe
+E:\PirateGame\PirateGame\obj\x86\Release\PirateGame.pdb
