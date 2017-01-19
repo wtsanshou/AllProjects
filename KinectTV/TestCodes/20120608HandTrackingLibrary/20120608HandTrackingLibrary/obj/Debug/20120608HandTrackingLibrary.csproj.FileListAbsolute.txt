@@ -1,0 +1,12 @@
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\UserControl1.baml
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\UserControl1.g.cs
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\20120608HandTrackingLibrary_MarkupCompile.cache
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\20120608HandTrackingLibrary.g.resources
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\_20120608HandTrackingLibrary.Properties.Resources.resources
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\GenerateResource.read.1.tlog
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\GenerateResource.write.1.tlog
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\bin\Debug\20120608HandTrackingLibrary.dll
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\bin\Debug\20120608HandTrackingLibrary.pdb
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\20120608HandTrackingLibrary.dll
+E:\Workspace\Kinect\20120608HandTrackingLibrary\20120608HandTrackingLibrary\obj\Debug\20120608HandTrackingLibrary.pdb

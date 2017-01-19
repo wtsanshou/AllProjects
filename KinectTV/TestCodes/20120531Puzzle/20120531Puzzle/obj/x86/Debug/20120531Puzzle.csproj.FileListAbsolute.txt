@@ -1,0 +1,13 @@
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\bin\Debug\20120531Puzzle.exe
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\bin\Debug\20120531Puzzle.pdb
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\MainWindow.baml
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\MainWindow.g.cs
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\App.g.cs
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\20120531Puzzle_MarkupCompile.cache
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\20120531Puzzle.g.resources
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\_20120531Puzzle.Properties.Resources.resources
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\20120531Puzzle.exe
+E:\Workspace\Kinect\20120531Puzzle\20120531Puzzle\obj\x86\Debug\20120531Puzzle.pdb

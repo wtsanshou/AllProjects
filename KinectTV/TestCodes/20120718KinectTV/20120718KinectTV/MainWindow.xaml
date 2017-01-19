@@ -1,0 +1,436 @@
+﻿<Window x:Class="_20120718KinectTV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"  Height="600" Width="800" xmlns:my="clr-namespace:_20120608HandTrackingLibrary;assembly=20120608HandTrackingLibrary">
+    <Grid   Background="{StaticResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="0"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Canvas Name="firstPage" Grid.Column="0" Visibility="Visible">
+            <my:HoverButton Height="130" Width="130" HorizontalAlignment="Left" Margin="53,39,0,0" Name="TV" VerticalAlignment="Top" Click="TV_Click" KinectCursorLeave="Button_KinectCursorLeave" >
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="40">TV</TextBlock>
+                </Button.Content>
+            </my:HoverButton>
+            
+        </Canvas>
+
+        <Canvas Name="GSPage" Grid.Column="1" Visibility="Hidden">
+            <my:MagnetButton Height="80" Width="80" HorizontalAlignment="Left" Margin="53,39,0,0" Name="GSBack" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="565" Canvas.Top="-33" Click="GSBack_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Back</TextBlock>
+                </Button.Content>
+            </my:MagnetButton>
+
+            <my:HoverButton Height="130" Width="130" HorizontalAlignment="Left" Margin="53,39,0,0" Name="Gesture" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="117" Canvas.Top="199" Click="Gesture_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Gesture</TextBlock>
+                </Button.Content>
+            </my:HoverButton>
+
+            <my:HoverButton Height="130" Width="130" HorizontalAlignment="Left" Margin="53,39,0,0" Name="Speech" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="423" Canvas.Top="199" Click="Speech_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Speech</TextBlock>
+                </Button.Content>
+            </my:HoverButton>
+            
+        </Canvas>
+
+        <Canvas Name="GesturePage" Grid.Column="1" Visibility="Hidden">
+            <my:MagnetButton Height="80" Width="80" HorizontalAlignment="Left" Margin="53,39,0,0" Name="GestureBack" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="565" Canvas.Top="-33" Click="GestureBack_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Back</TextBlock>
+                </Button.Content>
+            </my:MagnetButton>
+            <Image Canvas.Left="346" Canvas.Top="30" Height="94" Name="GestureType" Stretch="Fill" Width="88" Source="{Binding GestureType}" />
+            <Label Canvas.Left="0" Canvas.Top="520" Content="{Binding CommandType}" Height="41" Name="CommandType" Width="145" />
+            <Label Canvas.Left="143" Canvas.Top="520" Content="{Binding Command}" Height="41" Name="Command" Width="635" />
+
+            <Grid Margin="0,134,0,39">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="0"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Canvas Grid.Column="{Binding GestureGuidanceColumn1}" Visibility="{Binding GestureGuidanceVisibility1}">
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="15" >
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to do mode swapping</Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="17">In Any Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/ModeSwapping.png" Width="156"></Image>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="215" >
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to see previous guidance</Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="15">In Guidance Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+                               
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/Left.png" Width="156"></Image>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="409" >
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to see next guidance</Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="15">In Guidance Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+                                
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/Right.png" Width="156"></Image>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="605" >
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to turn on the television</Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="17">In Channel Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+                                
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/TurnOnOffTV.png" Width="156"></Image>
+                    </StackPanel>
+
+                </Canvas>
+                <Canvas   Grid.Column="{Binding GestureGuidanceColumn2}" Visibility="{Binding GestureGuidanceVisibility2}">
+                    <StackPanel Orientation="Vertical"  Height="386" Canvas.Left="15">
+                        <RichTextBox HorizontalAlignment="Center" Width="156"  Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}" >
+                            <FlowDocument>
+                                <Paragraph FontSize="18">
+                                    If you want to Turn off the television
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="17">In Channel Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/TurnOnOffTV.png" Width="156"></Image>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="215" >
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to see previous Channel</Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="17">In Channel Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/Left.png" Width="156"></Image>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="409" >
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to see next Channel</Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="17">In Channel Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+                                
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/Right.png" Width="156"></Image>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="605" >
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to decrease the sound</Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="18">In Sound Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/Left.png" Width="156"></Image>
+                    </StackPanel>
+                </Canvas>
+
+                <Canvas   Grid.Column="{Binding GestureGuidanceColumn3}" Visibility="{Binding GestureGuidanceVisibility3}">
+                    <StackPanel Orientation="Vertical"  Height="386" Canvas.Left="15">
+                        <RichTextBox HorizontalAlignment="Center" Width="156"  Height="180" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}" >
+                            <FlowDocument>
+                                <Paragraph FontSize="18">
+                                    If you want to increase the sound
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="18">In Sound Mode</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Do :</Bold>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Image Source="/20120718KinectTV;component/Images/Gestures/Right.png" Width="156"></Image>
+                    </StackPanel>
+                        
+                </Canvas>
+            </Grid>
+        </Canvas>
+
+        <Canvas Name="SpeechPage" Grid.Column="1" Visibility="Hidden">
+            <my:MagnetButton Height="80" Width="80" HorizontalAlignment="Left" Margin="53,39,0,0" Name="SpeechBack" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="565" Canvas.Top="-33" Click="SpeechBack_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Back</TextBlock>
+                </Button.Content>
+            </my:MagnetButton>
+            <Image Canvas.Left="346" Canvas.Top="30" Height="94" Name="image1" Stretch="Fill" Width="88" Source="/20120718KinectTV;component/Images/Microphone.png" />
+            <Label  Foreground="White"  Content="{Binding HypothesizedText}" Height="41"   FontSize="20" Width="667" Canvas.Left="111" Canvas.Top="520"  DataContext="{Binding}" Target="{Binding}"/>
+            <Label Foreground="Green" Content="{Binding Confidence}"   Height="41"  Width="114" FontSize="20" Canvas.Left="0" Canvas.Top="520" />
+            <Label Canvas.Left="44" Canvas.Top="70" Content="{Binding show}" Height="54" Name="show" Width="209" />
+            <Grid Margin="0,134,0,39">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="0"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Canvas Grid.Column="{Binding SpeechGuidenceColumn1}" Visibility="{Binding SpeechGuidenceVisibility1}">
+
+                    <StackPanel Orientation="Vertical"  Height="386" Canvas.Left="15">
+                        <my:HoverButton Height="156" Width="156" Name="SoundNextGuidence" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundNextGuidence_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156"  Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">
+                                    If you want to see the next Guidence
+                                </Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">
+                                    Next page go there
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="215" >
+                        <my:HoverButton Height="156" Width="156" Name="SoundPreviousGuidence" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundPreviousGuidence_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to see previous Guidence</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">Previous page go there</Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="409" >
+                        <my:HoverButton Height="156" Width="156" Name="SoundTurnOnTV" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundTurnOnTV_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to trun on the television</Paragraph>
+                                
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">Turn on the TV</Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="605" >
+                        <my:HoverButton Height="156" Width="156" Name="SoundTurnOffTV" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundTurnOffTV_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to turn off the television</Paragraph>
+                                
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">Turn off the TV</Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                </Canvas>
+                <Canvas   Grid.Column="{Binding SpeechGuidenceColumn2}" Visibility="{Binding SpeechGuidenceVisibility2}">
+                    <StackPanel Orientation="Vertical"  Height="386" Canvas.Left="15">
+                        <my:HoverButton Height="156" Width="156" Name="SoundNextChannel" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundNextChannel_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156"  Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}" >
+                            <FlowDocument>
+                                <Paragraph FontSize="18">
+                                    If you want to see the next Channel
+                                </Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">
+                                    Next channel go there
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="215" >
+                        <my:HoverButton Height="156" Width="156" Name="SoundPreviousChannel" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundPreviousChannel_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to see previous Channel</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">Previous channel go there</Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="409" >
+                        <my:HoverButton Height="156" Width="156" Name="SoundIncreaseSound" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundIncreaseSound_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to increase the sound</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">Increase the sound go there</Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="605" >
+                        <my:HoverButton Height="156" Width="156" Name="SoundDecreaseSound" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundDecreaseSound_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to Decrease the sound</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">Decrease the sound go there</Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+                </Canvas>
+
+                <Canvas   Grid.Column="{Binding SpeechGuidenceColumn3}" Visibility="{Binding SpeechGuidenceVisibility3}">
+                    <StackPanel Orientation="Vertical"  Height="386" Canvas.Left="15">
+                        <my:HoverButton Height="156" Width="156" Name="SoundChannel1" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundChannel1_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156"  Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}" >
+                            <FlowDocument>
+                                <Paragraph FontSize="18">
+                                    If you want to see the Channel ONE
+                                </Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">
+                                    Channel one go there
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Height="386" Canvas.Left="215" >
+                        <my:HoverButton Height="156" Width="156" Name="SoundChannel2" KinectCursorLeave="Button_KinectCursorLeave" Click="SoundChannel2_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Sound.jpg"></ImageBrush>
+                            </Button.Background>
+                        </my:HoverButton>
+                        <RichTextBox HorizontalAlignment="Center" Width="156" Height="230" Background="{StaticResource {x:Static SystemColors.MenuBrushKey}}">
+                            <FlowDocument>
+                                <Paragraph FontSize="18">If you want to see the Channel TWO</Paragraph>
+                                <Paragraph FontSize="18">
+                                    <Bold>Plase Say :</Bold>
+                                </Paragraph>
+                                <Paragraph Foreground="Blue" FontSize="20">Channel two go there</Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        
+                    </StackPanel>
+
+                    
+                </Canvas>
+            </Grid>
+            
+        </Canvas>
+        <Canvas x:Name="StickMen" Width="200" Height="150" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+    </Grid >
+    
+</Window>

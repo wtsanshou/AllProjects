@@ -1,0 +1,5 @@
+E:\Workspace\Kinect\KinectTest1\KinectTest1\bin\Debug\KinectTest1.exe
+E:\Workspace\Kinect\KinectTest1\KinectTest1\bin\Debug\KinectTest1.pdb
+E:\Workspace\Kinect\KinectTest1\KinectTest1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workspace\Kinect\KinectTest1\KinectTest1\obj\x86\Debug\KinectTest1.exe
+E:\Workspace\Kinect\KinectTest1\KinectTest1\obj\x86\Debug\KinectTest1.pdb

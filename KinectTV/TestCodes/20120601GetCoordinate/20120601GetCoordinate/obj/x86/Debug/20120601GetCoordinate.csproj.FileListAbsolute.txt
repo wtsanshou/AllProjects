@@ -1,0 +1,13 @@
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\bin\Debug\20120601GetCoordinate.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\bin\Debug\20120601GetCoordinate.pdb
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\MainWindow.baml
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\App.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\20120601GetCoordinate_MarkupCompile.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\20120601GetCoordinate.g.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\_20120601GetCoordinate.Properties.Resources.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\20120601GetCoordinate.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120601GetCoordinate\obj\x86\Debug\20120601GetCoordinate.pdb

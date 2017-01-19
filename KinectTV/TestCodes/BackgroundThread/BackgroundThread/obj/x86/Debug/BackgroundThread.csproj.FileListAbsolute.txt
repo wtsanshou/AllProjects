@@ -1,0 +1,15 @@
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\bin\Debug\BackgroundThread.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\bin\Debug\BackgroundThread.pdb
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\MainWindow.baml
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\App.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\BackgroundThread_MarkupCompile.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\BackgroundThread.g.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\BackgroundThread.Properties.Resources.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\BackgroundThread.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\BackgroundThread\obj\x86\Debug\BackgroundThread.pdb
+E:\Workspace\Kinect\BackgroundThread\BackgroundThread\obj\x86\Debug\BackgroundThread.exe
+E:\Workspace\Kinect\BackgroundThread\BackgroundThread\obj\x86\Debug\BackgroundThread.pdb

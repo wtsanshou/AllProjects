@@ -1,0 +1,102 @@
+﻿<Window x:Class="_20120718KinectTV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"  Height="600" Width="800" xmlns:my="clr-namespace:_20120608HandTrackingLibrary;assembly=20120608HandTrackingLibrary">
+    <Grid   Background="{StaticResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="0"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Canvas Name="firstPage" Grid.Column="0" Visibility="Visible">
+            <my:HoverButton Height="130" Width="130" HorizontalAlignment="Left" Margin="53,39,0,0" Name="TV" VerticalAlignment="Top" Click="TV_Click" KinectCursorLeave="Button_KinectCursorLeave" >
+                <Button.Background>
+                    <ImageBrush ImageSource="images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="40">TV</TextBlock>
+                </Button.Content>
+            </my:HoverButton>
+            
+        </Canvas>
+
+        <Canvas Name="GSPage" Grid.Column="1" Visibility="Hidden">
+            <my:MagnetButton Height="80" Width="80" HorizontalAlignment="Left" Margin="53,39,0,0" Name="GSBack" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="565" Canvas.Top="-33" Click="GSBack_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Back</TextBlock>
+                </Button.Content>
+            </my:MagnetButton>
+
+            <my:HoverButton Height="130" Width="130" HorizontalAlignment="Left" Margin="53,39,0,0" Name="Gesture" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="117" Canvas.Top="199" Click="Gesture_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Gesture</TextBlock>
+                </Button.Content>
+            </my:HoverButton>
+
+            <my:HoverButton Height="130" Width="130" HorizontalAlignment="Left" Margin="53,39,0,0" Name="Speech" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="423" Canvas.Top="199" Click="Speech_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Speech</TextBlock>
+                </Button.Content>
+            </my:HoverButton>
+            
+        </Canvas>
+
+        <Canvas Name="GesturePage" Grid.Column="1" Visibility="Hidden">
+            <my:MagnetButton Height="80" Width="80" HorizontalAlignment="Left" Margin="53,39,0,0" Name="GestureBack" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="565" Canvas.Top="-33" Click="GestureBack_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Back</TextBlock>
+                </Button.Content>
+            </my:MagnetButton>
+            
+        </Canvas>
+
+        <Canvas Name="SpeechPage" Grid.Column="1" Visibility="Hidden">
+            <my:MagnetButton Height="80" Width="80" HorizontalAlignment="Left" Margin="53,39,0,0" Name="SpeechBack" VerticalAlignment="Top" KinectCursorLeave="Button_KinectCursorLeave" Canvas.Left="565" Canvas.Top="-33" Click="SpeechBack_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/button.png"></ImageBrush>
+                </Button.Background>
+                <Button.Content>
+                    <TextBlock Foreground="#FFF2E9E9" FontSize="24">Back</TextBlock>
+                </Button.Content>
+            </my:MagnetButton>
+            <Image Canvas.Left="346" Canvas.Top="30" Height="94" Name="image1" Stretch="Fill" Width="88" Source="/20120718KinectTV;component/Images/Microphone.png" />
+            <Label  Foreground="White"  Content="{Binding HypothesizedText}" Height="55"   FontSize="32" Width="312" Canvas.Left="0" Canvas.Top="61"  DataContext="{Binding}" Target="{Binding}"/>
+            <Label Foreground="Green" Content="{Binding test}"   Height="55"  Width="114" FontSize="32"  />
+            <Grid Margin="0,164,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="0"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Canvas  Grid.Column="0" Visibility="Visible">
+                    <TextBox Height="385" HorizontalAlignment="Left" Margin="6,6,0,0" Name="richTextBox1" VerticalAlignment="Top" Width="156" FontSize="32" Text="sfdsfdsfdsfds">
+
+                    </TextBox>
+                    <RichTextBox Height="385" HorizontalAlignment="Left" Margin="214,6,0,0" Name="richTextBox2" VerticalAlignment="Top" Width="156" />
+                    <RichTextBox Height="385" HorizontalAlignment="Left" Margin="416,6,0,0" Name="richTextBox3" VerticalAlignment="Top" Width="156" />
+                    <RichTextBox Height="385" HorizontalAlignment="Left" Margin="616,6,0,0" Name="richTextBox4" VerticalAlignment="Top" Width="156" />
+                </Canvas>
+                <Canvas  Grid.Column="1" Visibility="Visible">
+                    <RichTextBox Height="385" HorizontalAlignment="Left" Margin="6,6,0,0" Name="richTextBox5" VerticalAlignment="Top" Width="156" />
+                    <RichTextBox Height="385" HorizontalAlignment="Left" Margin="214,6,0,0" Name="richTextBox6" VerticalAlignment="Top" Width="156" />
+                    <RichTextBox Height="385" HorizontalAlignment="Left" Margin="416,6,0,0" Name="richTextBox7" VerticalAlignment="Top" Width="156" />
+                    <RichTextBox Height="385" HorizontalAlignment="Left" Margin="616,6,0,0" Name="richTextBox8" VerticalAlignment="Top" Width="156" />
+                </Canvas>
+            </Grid>
+
+            
+        </Canvas>
+        
+    </Grid >
+    
+</Window>

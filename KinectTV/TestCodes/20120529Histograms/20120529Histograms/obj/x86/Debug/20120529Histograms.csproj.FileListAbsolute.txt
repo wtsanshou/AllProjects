@@ -1,0 +1,15 @@
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\bin\Debug\20120529Histograms.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\bin\Debug\20120529Histograms.pdb
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\MainWindow.baml
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\App.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\20120529Histograms_MarkupCompile.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\20120529Histograms.g.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\_20120529Histograms.Properties.Resources.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\20120529Histograms.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120529Histograms\obj\x86\Debug\20120529Histograms.pdb
+E:\Workspace\Kinect\20120529Histograms\20120529Histograms\obj\x86\Debug\20120529Histograms.exe
+E:\Workspace\Kinect\20120529Histograms\20120529Histograms\obj\x86\Debug\20120529Histograms.pdb

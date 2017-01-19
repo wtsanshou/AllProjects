@@ -1,0 +1,15 @@
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\bin\Debug\Polling.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\bin\Debug\Polling.pdb
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\MainWindow.baml
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\App.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\Polling_MarkupCompile.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\Polling.g.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\Polling.Properties.Resources.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\Polling.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\Polling\obj\x86\Debug\Polling.pdb
+E:\Workspace\Kinect\Polling\Polling\obj\x86\Debug\Polling.exe
+E:\Workspace\Kinect\Polling\Polling\obj\x86\Debug\Polling.pdb

@@ -1,0 +1,15 @@
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\bin\Debug\ConnectKinect.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\bin\Debug\ConnectKinect.pdb
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\MainWindow.baml
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\App.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\ConnectKinect_MarkupCompile.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\ConnectKinect.g.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\ConnectKinect.Properties.Resources.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\ConnectKinect.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\ConnectKinect\obj\x86\Debug\ConnectKinect.pdb
+E:\Workspace\Kinect\ConnectKinect\ConnectKinect\obj\x86\Debug\ConnectKinect.exe
+E:\Workspace\Kinect\ConnectKinect\ConnectKinect\obj\x86\Debug\ConnectKinect.pdb

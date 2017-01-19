@@ -1,0 +1,13 @@
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\bin\Debug\20120621FingerTracking.exe
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\bin\Debug\20120621FingerTracking.pdb
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\MainWindow.baml
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\MainWindow.g.cs
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\App.g.cs
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\20120621FingerTracking_MarkupCompile.cache
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\20120621FingerTracking.g.resources
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\_20120621FingerTracking.Properties.Resources.resources
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\20120621FingerTracking.exe
+E:\Workspace\Kinect\20120621FingerTracking\20120621FingerTracking\obj\x86\Debug\20120621FingerTracking.pdb

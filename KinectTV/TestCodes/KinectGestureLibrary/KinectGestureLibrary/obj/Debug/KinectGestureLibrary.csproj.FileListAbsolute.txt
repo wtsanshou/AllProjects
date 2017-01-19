@@ -1,0 +1,8 @@
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\bin\Debug\KinectGestureLibrary.dll
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\bin\Debug\KinectGestureLibrary.pdb
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\obj\Debug\KinectGestureLibrary.Properties.Resources.resources
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\obj\Debug\GenerateResource.read.1.tlog
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\obj\Debug\GenerateResource.write.1.tlog
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\obj\Debug\KinectGestureLibrary.dll
+E:\Workspace\Kinect\KinectGestureLibrary\KinectGestureLibrary\obj\Debug\KinectGestureLibrary.pdb

@@ -1,0 +1,15 @@
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\bin\Debug\20120612ControlPPT.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\bin\Debug\20120612ControlPPT.pdb
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\MainWindow.baml
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\App.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\20120612ControlPPT_MarkupCompile.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\20120612ControlPPT.g.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\_20120612ControlPPT.Properties.Resources.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\20120612ControlPPT.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120612ControlPPT\obj\x86\Debug\20120612ControlPPT.pdb
+E:\Workspace\Kinect\20120612ControlPPT\20120612ControlPPT\obj\x86\Debug\20120612ControlPPT.exe
+E:\Workspace\Kinect\20120612ControlPPT\20120612ControlPPT\obj\x86\Debug\20120612ControlPPT.pdb

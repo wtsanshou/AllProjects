@@ -1,0 +1,16 @@
+﻿<Window x:Class="FirstDepthImage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="1200" Width="1280">
+    <Grid>
+        <StackPanel>
+            <TextBlock x:Name="PixelDepth" Text="sssss" FontSize="48" HorizontalAlignment="Left"/>
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="DepthImage" Height="480" Width="640" MouseLeftButtonUp="DepthImage_MouseLeftButtonUp" />
+                <Image x:Name="EnhancedDepthImage" Height="480" Width="640" />
+            </StackPanel>
+            <Image x:Name="BetterShadeDepthImage" Height="480" Width="640" />
+        </StackPanel>
+        
+    </Grid>
+</Window>

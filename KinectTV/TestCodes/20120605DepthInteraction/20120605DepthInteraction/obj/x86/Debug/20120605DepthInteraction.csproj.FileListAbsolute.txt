@@ -1,0 +1,26 @@
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\MainWindow.baml
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\App.g.cs
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction_MarkupCompile.cache
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction.g.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\_20120605DepthInteraction.Properties.Resources.resources
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\bin\Debug\20120605DepthInteraction.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\bin\Debug\20120605DepthInteraction.pdb
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction.exe
+C:\Users\sanshou\AppData\Local\Temporary Projects\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction.pdb
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction.exe
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction.pdb
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\bin\Debug\20120605DepthInteraction.exe
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\bin\Debug\20120605DepthInteraction.pdb
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\MainWindow.baml
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\MainWindow.g.cs
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\App.g.cs
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction_MarkupCompile.cache
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\20120605DepthInteraction.g.resources
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\_20120605DepthInteraction.Properties.Resources.resources
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Workspace\Kinect\20120605DepthInteraction\20120605DepthInteraction\obj\x86\Debug\GenerateResource.write.1.tlog
