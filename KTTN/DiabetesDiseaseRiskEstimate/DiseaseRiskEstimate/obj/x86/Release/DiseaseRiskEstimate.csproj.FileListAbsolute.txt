@@ -1,0 +1,12 @@
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\bin\Release\DiseaseRiskEstimate.exe.config
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\Interop.Excel.dll
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\DiseaseRiskEstimate.csproj.ResolveComReference.cache
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\bin\Release\DiseaseRiskEstimate.exe
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\bin\Release\DiseaseRiskEstimate.pdb
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\DiseaseRiskEstimate.MainForm.resources
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\DiseaseRiskEstimate.Properties.Resources.resources
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\DiseaseRiskEstimate.exe
+E:\Workspace\Kttn\DiseaseRiskEstimate\DiseaseRiskEstimate\obj\x86\Release\DiseaseRiskEstimate.pdb

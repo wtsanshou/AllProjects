@@ -1,0 +1,73 @@
+drop database if exists Kttn;
+
+/*==============================================================*/
+/* Database: Kttn                                              */
+/*==============================================================*/
+create database Kttn;
+
+use Kttn;
+
+drop table if exists User;
+drop table if exists Client;
+drop table if exists SqlLog;
+
+/*==============================================================*/
+/* Table: User                                                  */
+/*==============================================================*/
+CREATE TABLE User (
+        ID INTEGER(20) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+        UserName VARCHAR (50) UNIQUE NOT NULL,
+        Password VARCHAR (50) NOT NULL,
+		UserType INTEGER (1) NOT NULL,
+		Remark TEXT(300),
+		OpeName VARCHAR(50),
+		OpeTime DATETIME,
+		ModName VARCHAR(50),
+		ModTime DATETIME
+
+);
+
+INSERT INTO User (UserName,Password,UserType, Remark,OpeName,OpeTime,ModName,ModTime) VALUES
+				('admin', 'admin',0, 'create by system', 'system', '2013-01-19 12:00', 'system', '2013-01-19 12:00');
+INSERT INTO User (UserName,Password,UserType, Remark,OpeName,OpeTime,ModName,ModTime) VALUES
+				(' manager ', ' manager ',1, 'create by system', 'system', '2013-01-19 12:00', 'system', '2013-01-19 12:00');
+INSERT INTO User (UserName,Password,UserType, Remark,OpeName,OpeTime,ModName,ModTime) VALUES
+				(' staff ', ' staff ',2, 'create by system', 'system', '2013-01-19 12:00', 'system', '2013-01-19 12:00');
+
+/*==============================================================*/
+/* Table: Client                                                */
+/*==============================================================*/
+CREATE TABLE Client (
+        ID INTEGER(20) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+        Name VARCHAR (50), 
+		Sex INTEGER (1),
+		BornDate DATE,
+		BornAddr VARCHAR (300),
+		MobPhone VARCHAR (20),
+		Telephone VARCHAR (20),
+		HomeAddr VARCHAR (300),
+		WorkAddr VARCHAR (300),
+		Email VARCHAR (100),
+		IdCard VARCHAR (20),
+		MemState VARCHAR (10),
+
+		Remark TEXT(300),
+		OpeName VARCHAR(50),
+		OpeTime DATETIME,
+		ModName VARCHAR(50),
+		ModTime DATETIME
+
+);
+
+/*==============================================================*/
+/* Table: SqlLog                                                */
+/*==============================================================*/
+CREATE TABLE SqlLog (
+        ID INTEGER(20) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+        SqlString VARCHAR (500), 
+		QueryTime DATETIME,
+		UserIP VARCHAR(50),
+		OpeName VARCHAR(50), 
+		Remark TEXT(300)
+
+);

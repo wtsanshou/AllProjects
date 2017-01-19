@@ -1,0 +1,195 @@
+@CHARSET "UTF-8";
+
+html * {
+    margin: 0;
+    /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
+}
+
+body{
+	background-color:#EFEFEF;
+}
+
+#loginTable{
+	background-color:#FFFFFF;
+	border: 0;
+	}
+.UserTable{
+	background-color:#FFFFFF;
+	border: 0;
+	}
+#logo{
+	width:360px;
+	
+	padding-top: 50px;
+	}
+
+
+.button {
+	font-family: Arial;
+	font-size: .9em;
+	text-align: center;
+	margin: 3px;
+	cursor: hand;
+	color: #FFFFFF;
+	padding: 4px 10px 4px 10px;
+	background-color: #0A5CA7;
+	text-decoration: none;
+	border-top: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+.modify {
+	font-family: Arial;
+	font-size: .9em;
+	text-align: center;
+	margin: 3px;
+	cursor: hand;
+	color: #FFFFFF;
+	padding: 4px 10px 4px 10px;
+	background-color: #0A5CA7;
+	text-decoration: none;
+	border-top: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+.delete {
+	font-family: Arial;
+	font-size: .9em;
+	text-align: center;
+	margin: 3px;
+	cursor: hand;
+	color: #FFFFFF;
+	padding: 4px 10px 4px 10px;
+	background-color: #0A5CA7;
+	text-decoration: none;
+	border-top: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+/*section tabs*/
+#tabs{
+	padding-left:280px;
+	float:none;
+	}
+
+#tabs li {
+	float:left;
+	
+	overflow:hidden;
+}
+#tabs li a {
+	font-size:22px;
+	
+	height:67px;
+	line-height:67px;
+	text-decoration:none;
+	width:125px;
+	text-align:center;
+	float:left;
+}
+
+
+
+
+
+/*ajax section admin, manager, staff*/
+#mainInfo{
+	float:none;
+	width:900px;
+	overflow:hidden; 
+}
+
+/*top*/
+#top{
+	
+		
+}
+
+
+/*foot*/
+#foot{
+	
+}
+
+/* /////////////////////////////////////////////
+//management/buseness/home.php
+///////////////////////////////////////////// */
+/*
+ *list menu
+ */
+#listTabs{
+	
+	font-size:22px;
+	float:left;
+	
+	
+}
+	
+#listTabs li {
+	list-style:none;
+	overflow:hidden;
+	
+}
+
+#listTabs a{
+	color:#FFFFFF;
+}
+
+.listMenu{
+	
+	width:130px;
+	background:#0A5CA7;
+	background-repeat: repeat-x;
+}
+
+.highlight a{
+	font-size:18px;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	width:125px;
+}
+.listMenu ul {
+	 display: none; 
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.listMenu li{
+	background:#0A5CA7;
+}
+
+/*
+ *business/client.php page
+ */
+.detail {
+	font-family: Arial;
+	font-size: .9em;
+	text-align: center;
+	margin: 3px;
+	cursor: hand;
+	color: #FFFFFF;
+	padding: 4px 10px 4px 10px;
+	background-color: #0A5CA7;
+	text-decoration: none;
+	border-top: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+h1{
+	color:	#0A5CA7;
+}
+
+
+
